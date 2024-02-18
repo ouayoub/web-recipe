@@ -1,0 +1,249 @@
+body {
+ background-color: rgb(0, 34, 34);
+}
+
+section {
+ font-family: ' broadway', Courier, monospace;
+}
+
+ul li {
+ text-decoration: none;
+ color: white;
+ display: block;
+ margin-left: 20px;
+ font-family: 'Josefin Sans semibold', Courier, monospace;
+
+
+}
+
+.home a{
+ background-color:white;
+color: rgb(0, 34, 34);
+}
+.home a:hover{
+ background-color: rgb(0, 34, 34);
+ color:white;
+}
+
+.top-header {
+ background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+}
+
+.logo img {
+ width: 50px;
+}
+
+ul {
+ display: flex;
+ margin-right: 100px !important;
+
+}
+
+ul li a {
+ color: white;
+ text-decoration: none;
+ margin-right: 10px;
+ padding: 10px;
+ border-radius: 10px;
+ padding-left: 20px;
+ padding-right: 20px;
+}
+
+ul li a:hover {
+ color: rgb(0, 34, 34);
+ background-color: white;
+ transition: ease 0.7s;
+}
+
+h1 {
+ font-family: 'Bauhaus 93', Courier, monospace;
+}
+
+h2 {
+ font-size: 50px;
+}
+
+.but-book {
+ padding: 10px;
+ padding-left: 30px;
+ padding-right: 30px;
+ background-color: transparent;
+ border: 1px white solid;
+ color: white;
+}
+
+.but-book:hover {
+ color: rgb(0, 34, 34);
+ background-color: white;
+ transition: ease 0.5s;
+}
+
+/* second section */
+
+.second-section img {
+ height: 400px;
+ object-fit: cover;
+ border-radius: 20px;
+}
+
+.second-section p {
+ font-size: 30PX;
+ color: white;
+}
+
+.g-section img {
+ height: 400px;
+ object-fit: cover;
+ left: 0px;
+}
+
+.g-section {
+ background-color: rgb(1, 18, 18);
+
+}
+
+.j-section {}
+
+.j-section img {
+ height: 300px;
+ object-fit: cover;
+}
+
+.j-section h2 {
+ font-family: 'cotton cloud', Courier, monospace;
+}
+
+.modal-btn {
+ color: white;
+ position: fixed;
+ bottom: 20px;
+ right: 30px;
+ background-color: rgb(1, 18, 18);
+ border: 1px solid white;
+ border-radius: 0px;
+}
+
+.modal-btn:hover {
+ color: rgb(1, 18, 18);
+ background-color: white;
+}
+
+/* 
+start menu 
+*/
+
+.menu {
+ background-color: rgb(0, 34, 34);
+ font-family: 'Josefin Sans semibold', Courier, monospace;
+ color: white;
+}
+
+.menu img {
+ height: 300px;
+ object-fit: cover;
+ opacity: 0.7;
+
+}
+
+.menu h5 {
+ color: white;
+ border-radius: 5px;
+
+}
+
+.left-image img {
+ border-top-right-radius: 70px;
+}
+
+.right-image {
+ border-top-left-radius: 70px;
+
+}
+
+.menu p {
+ border-radius: 5px;
+ background-color: rgb(0, 19, 14);
+ color: rgb(255, 255, 255);
+ opacity: 0.5;
+}
+
+.menu p:hover{
+ background-color: rgb(255, 255, 255);
+ color:rgb(0, 19, 14);
+ transition: ease 0.5s;
+}
+
+
+.menu h1 {
+ font-family: 'cotton cloud', Courier, monospace;
+
+}
+
+/* 
+end menu 
+*/
+
+
+/*
+footer
+*/
+
+.contain {
+ background-color: rgb(0, 14, 14);
+
+
+}
+
+h5 {
+ color: white;
+ cursor: pointer;
+ font-family: 'Josefin Sans semibold', Courier, monospace;
+
+}
+
+a {
+ margin-bottom: 5px;
+ text-decoration: none;
+ color: rgb(198, 198, 198);
+}
+
+
+textarea {
+ padding: 10px;
+ border: solid 0px;
+ height: 150px;
+ width: 500PX;
+ background-color: rgb(255, 255, 255);
+ color: rgb(0, 0, 0);
+ border-radius: 10px;
+ resize: none;
+}
+
+textarea:focus {
+ outline: none;
+ border: solid 0px;
+}
+
+strong {
+
+ font-family: 'Josefin Sans semibold', Courier, monospace;
+}
+
+button {
+ font-family: 'Josefin Sans semibold', Courier, monospace;
+ padding-left: 30px !important;
+ padding-right: 30px !important;
+ border-radius: 5px;
+ border: solid 1px white;
+ color: rgb(1, 18, 18);
+ box-shadow: 1px 1px 2px;
+}
+
+button:active {
+ box-shadow: 0px 0px 0px;
+ background-color: rgb(1, 18, 18);
+ color: white;
+ border: 1px solid white;
+
+}
