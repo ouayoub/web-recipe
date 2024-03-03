@@ -8,7 +8,7 @@ import { FirstSectionComponent } from './first-section/first-section.component';
 import { ModalButComponent } from './modal-but/modal-but.component';
 import { PanelSectionComponent } from './panel-section/panel-section.component';
 import { MenuSectionComponent } from './menu-section/menu-section.component';
-import { ServiesComponent } from './servies/servies.component';
+
 
 
 @NgModule({
@@ -18,8 +18,7 @@ import { ServiesComponent } from './servies/servies.component';
     FirstSectionComponent,
     ModalButComponent,
     PanelSectionComponent,
-    MenuSectionComponent,
-    ServiesComponent
+    MenuSectionComponent
 
   ],
   imports: [
