@@ -4,16 +4,14 @@
 <section class="second-section mt-5 mb-5">
   <div class="container d-flex">
     <div class="col-6 p-4">
-      <img class="col-12 " src="../../assets/f.png" alt>
-      <p class="mt-5 p-3 text-center text-uppercase">it's very important to
-        make healthy kitchen for fresh food </p>
-      <button class="but-book ">Book a Table</button>
+      <img class="col-12 " [src]=" Leftcontent.img " alt>
+      <p class="mt-5 p-3 text-center text-uppercase">{{ Leftcontent.leftText }} </p>
+      <button class="but-book ">{{ Leftcontent.title }}</button>
     </div>
     <div class="col-6 p-4">
-      <img class="col-12 " src="../../assets/h.png" alt>
-      <p class="mt-5 p-3 text-center text-uppercase">great food can make
-        your all party more enjoyable</p>
-      <button class="but-book float-end">Book a Table</button>
+      <img class="col-12 " [src]=" Rightcontent.img" alt>
+      <p class="mt-5 p-3 text-center text-uppercase"> {{ Rightcontent.RightText }} </p>
+      <button class="but-book float-end">{{ Rightcontent.title }}</button>
     </div>
   </div>
 </section>
