@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './first-section.component.css'
 })
 export class FirstSectionComponent {
+  
+  sectionContenu = {
+    introduction : 'Flavors that dance on your tongue and ignite your senses.',
+    button : ' Book a Table',
+    Image : '../../assets/one.png'
+  }
 
 }
